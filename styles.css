@@ -1,0 +1,73 @@
+/* General Styles */
+body {
+    font-family: Tahoma, sans-serif; /* Fallback font for wider compatibility */
+    font-size: 16px;
+    line-height: 1.5; /* Improve readability */
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #1b1b32;
+    color: #f5f6f7; /* High contrast for accessibility */
+}
+
+/* Typography */
+h1, p {
+    text-align: center;
+    margin: 1em auto; /* Centered with consistent vertical spacing */
+}
+
+/* Form Layout */
+form {
+    width: 90%; /* Make the form more responsive */
+    max-width: 500px;
+    margin: 20px auto; /* Center the form with top/bottom margin */
+    padding: 20px;   /* Add padding for better visual appearance */
+    background-color: #3b3b4f; /* Subdued background */
+    border-radius: 8px;       /* Add rounded corners */
+}
+
+fieldset {
+    border: none;
+    padding: 1rem 0;
+}
+
+/* Input and Label Styles */
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+input,
+textarea,
+select {
+    width: calc(100% - 22px);  /* Account for padding and border */
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;  /* Subtle border */
+    border-radius: 4px;
+    box-sizing: border-box;  /* Include padding and border in width calculation */
+}
+
+/* Radio Button and Checkbox Styles */
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;             /* Let them take their natural width */
+    margin-right: 0.5em;     /* Add space between input and label */
+}
+
+/* Inline Input Styles */
+.inline {
+    display: inline-block;   /* Allow for better spacing control */
+    width: auto;
+}
+
+/* Button Styles */
+button[type="submit"] {
+    background-color: #4CAF50; /* Example green color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem; 
+}
